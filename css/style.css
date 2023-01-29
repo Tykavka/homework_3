@@ -1,0 +1,39 @@
+/* h1 и Все h2 будут маркированы*/
+/* Все h3 будут иметь цвет красный*/
+/* Все p будут иметь цвет зеленый*/
+
+@import url(reset.css);
+
+#main_description {
+	color: teal;
+}
+h3 {
+	color: red;
+}
+.government + p{
+	color: purple;
+}
+.administration ~ p {
+	color: chartreuse;
+}
+.population .paragraph_1 {
+	color: brown;
+}
+div.paragraph_2 {
+	color: gray;
+}
+.paragraph_3 p {
+	color: blueviolet
+}
+div.physical_geographical_characteristics {
+	color: chartreuse;
+}
+.content {
+	color: royalblue;
+}
+.footer > h3{
+	color:blue
+}
+[class*=_content]{
+	color: sienna;
+}

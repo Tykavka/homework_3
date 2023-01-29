@@ -34,6 +34,6 @@ div.physical_geographical_characteristics {
 .footer > h3{
 	color:blue
 }
-[class*=_content]{
+[class*="_content"]{
 	color: sienna;
 }
